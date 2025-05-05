@@ -1,17 +1,21 @@
 
 :root{
-    --desktop-size : 1200px  /* XL */;
-    --labtop-size :  1024px  /* LG */;
-    --tablet-size :  768px  /* MD */;
-    --mobile-size :  480px  /* SM */;
-    --color-1 : #cdb4db ; 
-    /* Mobile */
-    --color-2 : #fff1e6;
-    /* Tablet */
-    --color-3 : #52b788;
-    /* Labtop */
-    --color-4:  #bee1e6;
-    /* Desktop */
+    --desktop-size : 1200px          /* XL */;
+
+    --labtop-size :  992px          /* LG */;
+
+    --tablet-size :  768px          /* MD */;
+
+    --mobile-size :  576px          /* SM */;
+
+    --color-1 : #cdb4db ;        /* Mobile */
+
+    --color-2 : #fff1e6;        /* Tablet */
+
+    --color-3 : #52b788;        /* Labtop */
+
+    --color-4:  #bee1e6;       /* Desktop */
+
 }
 
 
@@ -35,7 +39,7 @@ body{
 
     display: grid;
     place-content: center;
-    background-color: var(--color-1);
+    background-color: #fff;
 }
 .text {
 
@@ -49,3 +53,20 @@ body{
     font-size: 35px;
     color:red
 }
+
+@media  (min-width :768px)  {
+    .container{
+        background-color: var(--color-1);
+    }
+
+}
+
+
+/* 
+    value   
+    all ----------------> all media type devices
+    print --------------> print
+    screen --------------> computer screens, tablets, smart-phones etc.
+    speech --------------> screenreaders that "reads" the page out lou
+
+*/
