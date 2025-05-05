@@ -1,0 +1,7 @@
+
+:root{
+    --desktop-size : 1200px  /* XL */;
+    --labtop-size :  1024px  /* LG */;
+    --tablet-size :  768px  /* MD */;
+    --mobile-size :  480px  /* SM */;
+}
